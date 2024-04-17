@@ -1,9 +1,45 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+
+/* we are doing this on Monday before the CSS lecture that was canceled on Thursday, and so we are using w3schools to look at the CSS section */
+.minor-section {  
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color: rgb(222, 245, 245);
   }
+
+#content {
+    background-color: rgb(255, 172, 0);
+  }
+
+body {
+    background-color: rgb(245, 235, 183);
+  }
+  
+h1 {
+    color: greenyellow;
+    font-size: 230%;
+    font-family: "Trebuchet MS";
+  }
+
+p1 {
+    color: rgb(163, 61, 21);
+    margin-left: 20px;
+    font-family: "Papyrus";
+    font-size: 200%;
+  }
+
+img.us {
+  /*using W3schools, we looked up how to stretch an image using the CSS object fit property*/
+  width: 800px;
+  height: 300px;
+  margin-left: 20%;
+  border-style: dotted;
+  border-color: red;
+}
+
+
+
+  
