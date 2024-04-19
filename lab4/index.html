@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Pseudocoding & Problem-solving</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,30 +23,128 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Pseudocoding & Problem-solving</h1>
 			<div class="minor-section">
+				<!--
+					Pseudocode Tasks/Lists
+
+					Task 1: Create Digital Art
+					1. Figure out out what you want to draw
+					2. Research your topic 
+						a. create a mood board for inspiration and reference
+					3. Figure out what program you want to use and launch it
+					4. Sketch out a draft of what you want to draw
+					5. Create an outline layer in your program and outline your sketch
+					6. Create a color layer and apply flat colors to your drawing
+					7. Create a shading layer and apply shading to the flat colors
+					8. Polish your drawing by going over any mistakes you make have done or by adding any additional details
+					9. Once you are satisfied with your drawing, flatten all of your layers
+					10. Export your drawing to a format of your liking
+					11. Post or share wherever
+
+					Task 2: Rock-Paper-Scissors
+					1. Print the board before each turn
+					2. Accept user input from player
+					3. Validate move
+					4. Choose random computer move
+					5. Evaluate moves from player and computer
+					6. Test if win, lose, or draw condition
+				-->
+
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>The Challenge of this lab is to get into the habit of thinking in lists before jumping into code. We created Pseudocode lists within the code to serve as an outline for various tasks.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>A problem that arose, was formatting the indents within the code of the index.html file so it looked nice on the webpage. We solved them by going back and forth from VS Code and the browser to check how it looked visually on the screen.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>This lab was fairly easy, but tedious when it came to code hygene. This lab has taught me a valuable way to think of how I want to approach programming before actually coding. This has been a valuable experience for me and my lab partner.</p>
 			</div>
 
 			<div class="minor-section">
-					<h2>Results</h2>
+					<h2>Results / Pseudocode Screenshots / Lists</h2>
+			<pre><code>
+				Task 1: Create Digital Art
+		1. Figure out out what you want to draw
+		2. Research your topic
+			a. Create a mood board for inspiration and reference
+		3. Figure out what program you want to use and launch it
+		4. Sketch out a draft of what you want to draw
+		5. Create an outline layer in your program and outline your sketch
+		6. Create a color layer and apply flat colors to your drawing
+		7. Create a shading layer and apply shading to the flat colors
+		8. Polish your drawing by adding any additional details
+		9. Once you are satisfied with your drawing, flatten all of your layers
+		10. Export your drawing to a format of your liking
+		11. Post or share wherever
+			</code></pre>
+			<img src="img/task1.png">
+			<p class="italic">Screenshot of Creating Digital Art Pseudocode Outline</p>
+
+			<pre><code>
+				Task 2: Rock-Paper-Scissors (basic)
+		1. Print the board before each turn
+		2. Accept user input from player
+		3. Validate move
+		4. Choose random computer move
+		5. Evaluate moves from player and computer
+		6. Test if win, lose, or draw condition
+			</code></pre>
+			<img src="img/task2.png">
+			<p class="italic">Screenshot of Rock-Paper-Scissors Basic Pseudocode Outline</p>
+
+			<pre><code>
+			Pseudocode Outline: Rock-Paper-Scissors
+
+	1. Print the board before each turn
+		  a. Print PNG symbols of Rock, Paper, and Scissors in a row
+	2. Accept user input from player
+		  a. Remove images of moves not picked by player
+	3. Validate move
+		  a. Store whether player chose Rock, Paper, or Scissors
+		  b. Print image of chosen player move on left side of screen
+	4. Choose random computer move
+		  a. Randomize between Rock, Paper, and Scissors
+		  b. Store whether computer chose Rock, Paper, or Scissors
+		  c. Print image of chosen computer move on right side of screen
+	5. Evaluate moves from player and computer
+		  a. Compare chosen player and user moves
+	6. Test if win, lose, or draw condition
+		  a. Player chooses Rock:
+				i. Win if computer chose Scissors
+				ii. Draw if computer chose Rock
+				iii. Lose if computer chose Paper
+		  b. Player chooses Paper:
+				i. Win if computer chose Rock
+				ii.Draw if computer chose Paper
+				iii. Lose if computer chose Scissors
+		  c. Player chooses Scissors:
+				i. Win if computer chose Paper
+				ii. Draw if computer chose Scissors
+				iii. Lose if computer chose Rock
+	7. Print Game Conclusion on screen 
+ 		  a. Print "You Win!" if player wins 
+	 	  b. Print "Draw!" if player draws 
+		  c. Print "You Lose!" if player loses
+	8. Print "Try Again?" button on screen
+		  a. If player click button, restart game
+			</code></pre>
+			<img src="img/task3.png">
+			<p class="italic">Screenshot of Rock-Paper-Scissors Pseudocode Outline</p>
+
 					<div id="output"></div>
 			</div>
 		</section>
-		<nav id="links">
-			<!-- Put links to other pages (including the homepage) here. -->
-		</nav>
+		<div class="minor-section">
+			<nav id="links">
+				<!-- Put links to other pages (including the homepage) here. -->
+				<a href="../index.html">Back to Homepage</a>
+			</nav>
+		</div></nav>
 	</main>
 </body>
 </html>

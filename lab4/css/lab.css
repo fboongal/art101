@@ -7,3 +7,19 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+img {
+  width: 500px;
+  border-style:double;
+}
+
+.italic {
+  font-style: italic;
+  font-size: small;
+  padding-top: 1px;
+}
+
+pre, code {
+  margin-left: auto;
+  margin-right: auto;
+}
