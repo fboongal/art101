@@ -3,11 +3,11 @@
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 
 /* we are doing this on Monday before the CSS lecture that was canceled on Thursday, and so we are using w3schools to look at the CSS section */
-.minor-section {  
+.minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: rgb(222, 245, 245);
+    border: solid 1px rgb(221, 161, 94);
+    background-color: rgb(254, 250, 224);
   }
 
 #content {
