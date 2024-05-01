@@ -8,6 +8,7 @@
     background-color: rgb(254, 250, 224);
   }
 
-  img {
-    width: 800px;
+  .task {
+    font-style: italic;
+    font-family: "Courier";
   }
