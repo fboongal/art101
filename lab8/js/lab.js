@@ -20,5 +20,5 @@ var results = anArray.map(function(x) {
     return (x-3);
 })
 //should return [-2, 0, 19, 11, 6, 3]
-console.log("Here's the output of your anonymous function subtracted -3 from your array: ", results)
+console.log("Here's the output of your anonymous function subtracting -3 from your array: ", results)
 
