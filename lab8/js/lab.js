@@ -11,14 +11,17 @@ function addNumber(x) {
     return (x+3);
 }
 
-var results = anArray.map(addNumber)
+var addResults = anArray.map(addNumber)
 // should return [4, 6, 25, 17, 12, 9]
-console.log("Here's the output of your named function adding +3 to your array: ", results)
+console.log("Here's the output of your named function adding +3 to your array: ", addResults)
 
 // create an anonymous function that subtracts -3 to anArray
-var results = anArray.map(function(x) {
+var minusResults = anArray.map(function(x) {
     return (x-3);
 })
 //should return [-2, 0, 19, 11, 6, 3]
-console.log("Here's the output of your anonymous function subtracting -3 from your array: ", results)
+console.log("Here's the output of your anonymous function subtracting -3 from your array: ", minusResults)
 
+$("#output1").html(anArray);
+$("#output2").html(addResults);
+$("#output3").html(minusResults);
