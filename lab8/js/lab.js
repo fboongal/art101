@@ -22,6 +22,6 @@ var minusResults = anArray.map(function(x) {
 //should return [-2, 0, 19, 11, 6, 3]
 console.log("Here's the output of your anonymous function subtracting -3 from your array: ", minusResults)
 
-$("#output1").html(anArray);
-$("#output2").html(addResults);
-$("#output3").html(minusResults);
+$("#output1").html(anArray.join(", "));
+$("#output2").html(addResults.join(", "));
+$("#output3").html(minusResults.join(", "));
