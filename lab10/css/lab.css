@@ -11,3 +11,40 @@
   img {
     width: 800px;
   }
+
+#output {
+  background-color:antiquewhite;
+  border: solid 1px darkslategrey;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 15px;
+  min-height: 100px;
+}  
+
+.text p {
+    display : inline-block;
+    max-width : 60%;
+    margin : 3px;
+    padding : 5px 10px; 
+    border-radius : 25px; 
+    font-family : sans-serif;
+    font-size : 0.8em;
+  }
+
+.text:nth-child(odd) {
+    text-align: left;
+  }
+  
+.text:nth-child(odd) p {
+    background-color: olivedrab;
+    color: wheat;
+  }
+  
+.text:nth-child(even) {
+    text-align: right;
+  }
+  
+.text:nth-child(even) p {
+    background-color: darkcyan;
+    color: wheat;
+  }
