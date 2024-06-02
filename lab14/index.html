@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 14 - </title>
+	<title>Lab 14 - Debugging & Strategies</title>
 
-	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	
-	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 14 - </h1>
+			<h1>Lab 14 - Debugging & Strategies</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p></p>
+					<p>The challenge of this lab was to go back to one of our old labs and to debug them! For the sake of this lab we used our Lab 8, Anonymous Functions & Callbacks.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p></p>
-			</div>
-
-			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p></p>
+					<p>The problem/bugs that occurred was that our arrays were not printing with correct commas and spaces. After feed back from one of our TA's(Ilia the GOAT!) we were able to figure out how to separate the arrays correctly using .join(", "). We also separated our outputs in different divs instead of putting them all into one.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results/Script Output</h2>
-					<script src="js/lab.js"></script>
+					<p class="bold">This is how the Lab 8 results used to look like:</p>
+					<div class="mini-section">
+						<p><div id="old"></div></p>
+					</div>
+
+					<p class="bold">This is how Lab 8 looks like now, after debugging:</p>
+					<div class="mini-section">
+						<p>This is an array: <div id="output1"></div></p>
+						<p>This is the array when +3 is added to each number: <div id="output2"></div></p>
+						<p>This is the array when -3 is subtracted to each number: <div id="output3"></div></p>
+					</div>
+
 			</div>
 		</section>
 		<div class="minor-section">	

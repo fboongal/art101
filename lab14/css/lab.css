@@ -8,6 +8,20 @@
     background-color: rgb(254, 250, 224);
   }
 
+.mini-section {
+  padding: 5px;
+  border: solid 1px rgb(221, 161, 94);
+  background-color: #fcfaf1;
+}  
+
   img {
     width: 800px;
   }
+
+#output1, #output2, #output3, #old {
+  font-style: italic;
+} 
+
+.bold {
+  font-weight: bold;
+}
