@@ -10,4 +10,23 @@
 
   img {
     width: 800px;
+    border-radius: 3000px;
   }
+
+.output-section {
+  border: solid rgb(221, 161, 94) 1px;
+  background-color:rgb(24, 49, 49);
+  padding: 100px;
+  text-align: center;
+  font-family:cursive;
+  border-radius: 3000px;
+}  
+
+.output-section p {
+  color: seashell;
+  font-size: 20pt;
+}
+
+.bold {
+  text-transform: uppercase;
+}
